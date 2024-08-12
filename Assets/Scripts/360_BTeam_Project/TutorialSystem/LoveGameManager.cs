@@ -33,7 +33,7 @@ public class LoveGameManager : MonoBehaviour
             Array.Sort(conversations, (obj1, obj2) => obj1.ConversationIndex.CompareTo(obj2.ConversationIndex));
             for (int e = 0; e < conversations.Length; e++)
             {
-                Debug.Log(e + "| [[LoveGameManager]] 초기화 Conversations개체들 Index순서대로 정렬 indexValue:" + conversations[e].ConversationIndex);
+                //Debug.Log(e + "| [[LoveGameManager]] 초기화 Conversations개체들 Index순서대로 정렬 indexValue:" + conversations[e].ConversationIndex);
             };
         }
     }
@@ -71,8 +71,8 @@ public class LoveGameManager : MonoBehaviour
                     }
                     else if (activeConversation.isPlayerSpeak)
                     {
-                        Debug.Log("[[LoveGameManager]] 현재 Conversation name및 해당 개체에서 현재 말하고 있는 화자" + activeConversation.transform.name + ">SpeakerName:" + activeConversation.NowSpeakername);
-                        Debug.Log("[[LoveGameManager]] 화자가 플레이어인 경우로 동적 할당 접근을 하지 않는 개체의 경우이다");
+                        //Debug.Log("[[LoveGameManager]] 현재 Conversation name및 해당 개체에서 현재 말하고 있는 화자" + activeConversation.transform.name + ">SpeakerName:" + activeConversation.NowSpeakername);
+                        //Debug.Log("[[LoveGameManager]] 화자가 플레이어인 경우로 동적 할당 접근을 하지 않는 개체의 경우이다");
                     }
                 }
                 else//재성Ver 관련 행성씬 로직
@@ -107,8 +107,8 @@ public class LoveGameManager : MonoBehaviour
                     }
                     else if (activeConversation.isPlayerSpeak)
                     {
-                        Debug.Log("[[LoveGameManager]] 현재 Conversation name및 해당 개체에서 현재 말하고 있는 화자" + activeConversation.transform.name + ">SpeakerName:" + activeConversation.NowSpeakername);
-                        Debug.Log("[[LoveGameManager]] 화자가 플레이어인 경우로 동적 할당 접근을 하지 않는 개체의 경우이다");
+                        //Debug.Log("[[LoveGameManager]] 현재 Conversation name및 해당 개체에서 현재 말하고 있는 화자" + activeConversation.transform.name + ">SpeakerName:" + activeConversation.NowSpeakername);
+                        //Debug.Log("[[LoveGameManager]] 화자가 플레이어인 경우로 동적 할당 접근을 하지 않는 개체의 경우이다");
                     }
                 }
                 else//재성Ver 관련 행성씬 로직
@@ -143,8 +143,8 @@ public class LoveGameManager : MonoBehaviour
                     }
                     else if (activeConversation.isPlayerSpeak)
                     {
-                        Debug.Log("[[LoveGameManager]] 현재 Conversation name및 해당 개체에서 현재 말하고 있는 화자" + activeConversation.transform.name + ">SpeakerName:" + activeConversation.NowSpeakername);
-                        Debug.Log("[[LoveGameManager]] 화자가 플레이어인 경우로 동적 할당 접근을 하지 않는 개체의 경우이다");
+                        //Debug.Log("[[LoveGameManager]] 현재 Conversation name및 해당 개체에서 현재 말하고 있는 화자" + activeConversation.transform.name + ">SpeakerName:" + activeConversation.NowSpeakername);
+                        //Debug.Log("[[LoveGameManager]] 화자가 플레이어인 경우로 동적 할당 접근을 하지 않는 개체의 경우이다");
                     }
                 }
                 else//재성Ver 관련 행성씬 로직
@@ -179,8 +179,8 @@ public class LoveGameManager : MonoBehaviour
                     }
                     else if (activeConversation.isPlayerSpeak)
                     {
-                        Debug.Log("[[LoveGameManager]] 현재 Conversation name및 해당 개체에서 현재 말하고 있는 화자" + activeConversation.transform.name + ">SpeakerName:" + activeConversation.NowSpeakername);
-                        Debug.Log("[[LoveGameManager]] 화자가 플레이어인 경우로 동적 할당 접근을 하지 않는 개체의 경우이다");
+                        //Debug.Log("[[LoveGameManager]] 현재 Conversation name및 해당 개체에서 현재 말하고 있는 화자" + activeConversation.transform.name + ">SpeakerName:" + activeConversation.NowSpeakername);
+                        //Debug.Log("[[LoveGameManager]] 화자가 플레이어인 경우로 동적 할당 접근을 하지 않는 개체의 경우이다");
                     }
                 }
                 else//재성Ver 관련 행성씬 로직
@@ -215,8 +215,8 @@ public class LoveGameManager : MonoBehaviour
                     }
                     else if (activeConversation.isPlayerSpeak)
                     {
-                        Debug.Log("[[LoveGameManager]] 현재 Conversation name및 해당 개체에서 현재 말하고 있는 화자" + activeConversation.transform.name + ">SpeakerName:" + activeConversation.NowSpeakername);
-                        Debug.Log("[[LoveGameManager]] 화자가 플레이어인 경우로 동적 할당 접근을 하지 않는 개체의 경우이다");
+                        //Debug.Log("[[LoveGameManager]] 현재 Conversation name및 해당 개체에서 현재 말하고 있는 화자" + activeConversation.transform.name + ">SpeakerName:" + activeConversation.NowSpeakername);
+                        //Debug.Log("[[LoveGameManager]] 화자가 플레이어인 경우로 동적 할당 접근을 하지 않는 개체의 경우이다");
                     }
                 }
                 else//재성Ver 관련 행성씬 로직
@@ -239,7 +239,7 @@ public class LoveGameManager : MonoBehaviour
 
     public void GameOver()
     {
-        Debug.Log("게임오버>>");      
+        //Debug.Log("게임오버>>");      
         gameoverCon.SetActive(true);
         group1.SetActive(false);
         group2.SetActive(false);        
